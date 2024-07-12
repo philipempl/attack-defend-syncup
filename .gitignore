@@ -1,0 +1,66 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook configuration files
+.jupyter/
+.jupyter/lab/
+
+# Ignore Jupyter Notebook output files
+*.html
+*.pdf
+*.py
+*.r
+
+# Ignore Jupyter Notebook runtime files
+./.local/share/jupyter/runtime/
+
+# Ignore Kaggle datasets
+kaggle.json
+/input/
+*.zip
+*.tar.gz
+
+# Ignore hidden files and directories
+.*
+!.gitignore
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore data files
+data/
+*.csv
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.feather
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Ignore logs and output files
+*.log
+*.out
+*.err
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook extensions
+extensions/
+kaggle_dataset/
