@@ -27,6 +27,48 @@
     - Mapping CVEs to playbooks
     - Visualizing relationships and insights
 
+
+## Kaggle Dataset
+
+We have published the data used in this project on Kaggle for easy access and further analysis. You can find the dataset [here](https://www.kaggle.com/philipempl/attacker-data).
+
+### Download Attacker Data from Kaggle
+
+To download and use the dataset, follow these steps:
+
+1. **Install Kaggle API**:
+    ```bash
+    pip install kaggle
+    ```
+
+2. **Download the dataset**:
+    ```python
+    import os
+    import zipfile
+
+    dataset_identifier = 'philipempl/attacker-data'  # Replace with your dataset identifier
+    os.makedirs('kaggle_dataset', exist_ok=True)
+    !kaggle datasets download -d {dataset_identifier} -p kaggle_dataset
+
+    # List all downloaded files
+    downloaded_files = os.listdir('kaggle_dataset')
+    print(downloaded_files)
+
+    # Extract all zip files in the directory
+    for file_name in downloaded_files:
+        if file_name.endswith('.zip'):
+            with zipfile.ZipFile(os.path.join('kaggle_dataset', file_name), 'r') as zip_ref:
+                zip_ref.extractall('kaggle_dataset')
+    ```
+
+3. **Load the data**:
+    ```python
+    import pandas as pd
+
+    df = pd.read_csv('kaggle_dataset/results.csv')
+    df.head()
+    ```
+    
 ## Contributions
 
 We welcome contributions from the community! Feel free to fork the repository, create a branch, and submit a pull request with your improvements. Please ensure your code adheres to our coding standards and includes relevant tests.
