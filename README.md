@@ -48,11 +48,10 @@ To download and use the dataset, follow these steps:
 
     dataset_identifier = 'philipempl/attacker-data'  # Replace with your dataset identifier
     os.makedirs('kaggle_dataset', exist_ok=True)
-    !kaggle datasets download -d {dataset_identifier} -p kaggle_dataset
+    !kaggle datasets download -d {dataset_identifier} -p kaggle_dataset --force
 
     # List all downloaded files
     downloaded_files = os.listdir('kaggle_dataset')
-    print(downloaded_files)
 
     # Extract all zip files in the directory
     for file_name in downloaded_files:
@@ -68,7 +67,7 @@ To download and use the dataset, follow these steps:
     df = pd.read_csv('kaggle_dataset/results.csv')
     df.head()
     ```
-    
+
 ## Contributions
 
 We welcome contributions from the community! Feel free to fork the repository, create a branch, and submit a pull request with your improvements. Please ensure your code adheres to our coding standards and includes relevant tests.
