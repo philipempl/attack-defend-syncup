@@ -1,6 +1,8 @@
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+/kaggle_dataset
+
 # Ignore Python cache files
 __pycache__/
 *.py[cod]
