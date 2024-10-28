@@ -1,0 +1,6 @@
+// Attack Tactic Co-Occurrence Flowchart
+digraph {
+	Tactic3 -> Tactic1 [label=0.30]
+	Tactic1 -> Tactic2 [label=0.20]
+	Tactic1 -> Tactic3 [label=0.70]
+}
