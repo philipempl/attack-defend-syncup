@@ -2,12 +2,12 @@
 
 ## Overview
 
-**Attack-Defend-SyncUp** is a comprehensive project aimed at bridging the gap between known cybersecurity vulnerabilities (CVEs) and automated defense mechanisms (playbooks). This repository provides tools and data for analyzing over 250,000 CVEs and 1,200 defense playbooks, offering valuable insights into the interplay between cyber threats and defensive strategies.
+**Attack-Defend-SyncUp** is a comprehensive project aimed at bridging the gap between known cybersecurity vulnerabilities (CVEs) and automated defense mechanisms (playbooks). This repository provides tools and data for analyzing over 250,000 CVEs and 1,221 defense playbooks, offering valuable insights into the interplay between cyber threats and defensive strategies.
 
 ## Features
 
 - **Extensive CVE Dataset**: Over 250,000 CVEs with detailed descriptions, scores, and associated attack techniques.
-- **Defense Playbooks**: Collection of 1,200 playbooks in standardized formats for various mitigation techniques.
+- **Defense Playbooks**: Collection of 1,221 playbooks (777 defensive use cases) in standardized formats for various mitigation techniques.
 - **Mapping and Analysis Tools**: Jupyter Notebook for mapping CVEs to defense playbooks and analyzing their effectiveness.
 - **Visualization and Reporting**: Generate visual reports to better understand threat landscapes and defense mechanisms.
 
