@@ -1,0 +1,141 @@
+p1222,"['OperationalRiskAssessment', 'OperationalActivityMapping', 'OperationalDependencyMapping']"
+p1223,['c:AdditionalTask']
+p1224,"['AccountLocking', 'CredentialEviction']"
+p1225,"['NetworkIsolation', 'DNSDenylisting']"
+p1226,"['DNSDenylisting', 'NetworkIsolation']"
+p1227,"['NetworkIsolation', 'DNSDenylisting']"
+p1228,"['DNSDenylisting', 'NetworkIsolation']"
+p1229,"['NetworkIsolation', 'DNSDenylisting']"
+p1230,"['DNSDenylisting', 'NetworkIsolation']"
+p1231,"['NetworkIsolation', 'DNSDenylisting']"
+p1232,"['DNSDenylisting', 'NetworkIsolation']"
+p1233,"['NetworkIsolation', 'DNSDenylisting']"
+p1234,"['NetworkTrafficFiltering', 'NetworkIsolation']"
+p1235,"['ExecutionIsolation', 'ExecutableDenylisting']"
+p1236,"['ExecutableDenylisting', 'ExecutionIsolation']"
+p1237,"['ExecutionIsolation', 'ExecutableDenylisting']"
+p1238,"['ExecutableDenylisting', 'ExecutionIsolation']"
+p1239,"['ExecutionIsolation', 'ExecutableDenylisting', 'NetworkIsolation', 'DNSDenylisting', 'NetworkTrafficFiltering']"
+p1240,"['NetworkTrafficFiltering', 'NetworkIsolation', 'DNSDenylisting']"
+p1241,"['DNSDenylisting', 'NetworkIsolation', 'NetworkTrafficFiltering']"
+p1242,"['NetworkTrafficFiltering', 'NetworkIsolation']"
+p1243,"['OperationalActivityMapping', 'OrganizationMapping', 'AccessModeling', 'c:AdditionalTask']"
+p1244,"['NetworkIsolation', 'BroadcastDomainIsolation', 'CredentialEviction', 'AccountLocking', 'FileEviction', 'FileRemoval', 'NetworkTrafficFiltering', 'NetworkIsolation', 'DNSDenylisting']"
+p1245,"['DNSDenylisting', 'NetworkIsolation', 'NetworkTrafficFiltering']"
+p1246,"['ProcessEviction', 'ProcessTermination', 'ProcessSuspension']"
+p1247,"['CredentialEviction', 'AccountLocking']"
+p1248,"['NetworkTrafficFiltering', 'NetworkIsolation', 'BroadcastDomainIsolation']"
+p1249,"['FileRemoval', 'FileEviction']"
+p1250,"['ExecutableDenylisting', 'ExecutionIsolation']"
+p1251,"['ExecutionIsolation', 'ExecutableDenylisting']"
+p1252,"['NetworkTrafficCommunityDeviation', 'NetworkIsolation', 'BroadcastDomainIsolation']"
+p1253,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1254,"['IdentifierAnalysis', 'IdentifierReputationAnalysis']"
+p1255,"['OperatingSystemMonitoring', 'PlattformMonitoring']"
+p1256,"['PlattformMonitoring', 'OperatingSystemMonitoring', 'FileIntegrityMonitoring']"
+p1257,"['ReissueCredential', 'RestoreAccess', 'FileRemoval', 'FileEviction', 'ProcessTermination', 'ProcessEviction']"
+p1258,"['FileEviction', 'FileRemoval']"
+p1259,"['ReissueCredential', 'RestoreAccess']"
+p1260,"['ProcessTermination', 'ProcessEviction']"
+p1261,"['IdentifierAnalysis', 'IdentifierReputationAnalysis']"
+p1262,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1263,"['IdentifierAnalysis', 'IdentifierReputationAnalysis']"
+p1264,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1265,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1266,"['IdentifierAnalysis', 'IdentifierReputationAnalysis']"
+p1267,"['NetworkIsolation', 'BroadcastDomainIsolation']"
+p1268,"['ExecutableDenylisting', 'ExecutionIsolation']"
+p1269,"['NetworkIsolation', 'BroadcastDomainIsolation', 'NetworkTrafficFiltering']"
+p1270,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1271,"['NetworkIsolation', 'NetworkTrafficFiltering']"
+p1272,"['NetworkTrafficFiltering', 'NetworkIsolation']"
+p1273,"['NetworkIsolation', 'DNSDenylisting', 'NetworkTrafficFiltering']"
+p1274,"['NetworkTrafficFiltering', 'NetworkIsolation']"
+p1275,['c:AdditionalTask']
+p1276,"['c:AdditionalTask', 'NetworkTrafficPolicyMapping', 'NetworkMapping']"
+p1277,"['NetworkIsolation', 'DNSDenylisting', 'NetworkTrafficFiltering']"
+p1278,"['ApplicationHardening', 'ApplicationConfigurationHardening']"
+p1279,['c:AdditionalTask']
+p1280,"['RestoreAccess', 'RestoreNetworkAccess', 'RestoreFile', 'RestoreObject']"
+p1281,"['NetworkTrafficFiltering', 'NetworkIsolation']"
+p1282,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1283,"['IdentifierAnalysis', 'IdentifierReputationAnalysis']"
+p1284,"['DataExchangeMapping', 'SystemMapping', 'AssetInventory', 'DataInventory']"
+p1285,"['IdentifierReputationAnalysis', 'IdentifierAnalysis']"
+p1286,"['IdentifierReputationAnalysis', 'IdentifierAnalysis', 'IdentifierActivityAnalysis', 'NetworkIsolation', 'ExecutableDenylisting', 'NetworkIsolation', 'DNSDenylisting', 'NetworkTrafficFiltering']"
+p1287,"['OperatingSystemMonitoring', 'PlatformMonitoring']"
+p1288,"['ExecutableDenylisting', 'ExecutionIsolation']"
+p1289,"['ProcessTermination', 'ProcessEviction', 'IdentifierReputationAnalysis', 'IdentifierAnalysis', 'FileAnalysis', 'EmulatedFileAnalysis']"
+p1290,"['FileEviction', 'FileRemoval']"
+p1291,"['RestoreFile', 'RestoreObject']"
+p1292,['c:AdditionalTask']
+p1293,"['NetworkIsolation', 'NetworkTrafficFiltering', 'BroadcastDomainIsolation']"
+p1294,"['RestoreNetworkAccess', 'RestoreAccess']"
+p1295,"['ProcessEviction', 'ProcessTermination']"
+p1296,"['FileEviction', 'FileRemoval']"
+p1297,"['NetworkIsolation', 'BroadcastDomainIsolation', 'NetworkTrafficFiltering']"
+p1298,"['RestoreNetworkAccess', 'RestoreAccess']"
+p1299,"['FileEviction', 'FileRemoval']"
+p1300,"['IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1301,"['RestoreFile', 'RestoreObject']"
+p1302,"['IdentifierAnalysis', 'IdentifierActivityAnalysis']"
+p1303,"['IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1304,"['IdentifierAnalysis', 'IdentifierActivityAnalysis', 'IdentifierReputationAnalysis', 'FileAnalysis', 'FileContentAnalysis']"
+p1305,['c:IncidentHandlingManagement']
+p1306,['c:IncidentHandlingManagement']
+p1307,['c:IncidentHandlingManagement']
+p1308,['c:IncidentHandlingManagement']
+p1309,['c:IncidentHandlingManagement']
+p1310,"['FileAnalysis', 'DynamicAnalysis']"
+p1311,"['IdentifierAnalysis', 'IdentifierReputationAnalysis']"
+p1312,"['IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1313,"['IdentifierAnalysis', 'IdentifierActivityAnalysis']"
+p1314,['c:CTI_Input']
+p1315,"['RestoreUserAccountAccess', 'RestoreAccess', 'c:IncidentHandlingManagement']"
+p1316,['c:IncidentHandlingManagement']
+p1317,['c:IncidentHandlingManagement']
+p1318,"['AccountLocking', 'CredentialEviction']"
+p1319,"['ExecutableDenylisting', 'ExecutionIsolation']"
+p1320,"['NetworkNodeInventory', 'AssetInventory']"
+p1321,['c:IncidentHandlingManagement']
+p1322,['c:IncidentHandlingManagement']
+p1323,"['RestoreUserAccountAccess', 'RestoreAccess']"
+p1324,"['ProcessTermination', 'ProcessEviction', 'CredentialEviction', 'AccountLocking']"
+p1325,"['AccountLocking', 'CredentialEviction', 'ProcessTermination', 'ProcessEviction']"
+p1326,"['IdentifierAnalysis', 'IdentifierReputationAnalysis', 'OperationalRiskAssessment', 'OperationalActivityMapping']"
+p1327,"['ProcessTermination', 'ProcessEviction', 'AccountLocking', 'CredentialEviction']"
+p1328,"['NetworkNodeInventory', 'AssetInventory']"
+p1329,"['ProcessTermination', 'ProcessEviction', 'AccountLocking', 'CredentialEviction']"
+p1330,"['NetworkTrafficFiltering', 'NetworkIsolation']"
+p1331,['c:IncidentHandlingManagement']
+p1332,"['NetworkIsolation', 'DNSDenylisting', 'NetworkTrafficFiltering']"
+p1333,"['UserBehaviorAnalysis', 'LocalAccountMonitoring']"
+p1334,"['OperationalRiskAssessment', 'OperationalActivityMapping']"
+p1335,"['IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1336,"['c:IncidentHandlingManagement', 'c:NotifyingTask']"
+p1337,"['IdentifierAnalysis', 'IdentifierReputationAnalysis', 'URLAnalysis']"
+p1338,"['NetworkIsolation', 'BroadcastDomainIsolation']"
+p1339,"['RestoreNetworkAccess', 'RestoreAccess']"
+p1340,"['AccountLocking', 'CredentialEviction', 'WebSessionActivityAnalysis', 'UserBehaviorAnalysis']"
+p1341,['c:IncidentDocumentation']
+p1342,['c:IncidentDocumentation']
+p1343,"['AssetInventory', 'NetworkNodeInventory']"
+p1344,"['IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1345,"['ProcessTermination', 'ProcessEviction', 'AccountLocking', 'CredentialEviction']"
+p1346,"['CredentialEviction', 'AccountLocking', 'ProcessTermination', 'ProcessEviction', 'IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1347,"['IdentifierActivityAnalysis', 'IdentifierAnalysis', 'AccountLocking', 'CredentialEviction', 'ProcessTermination', 'ProcessEviction']"
+p1348,['c:AdditionalTask']
+p1349,"['ProcessEviction', 'ProcessTermination', 'AccountLocking', 'CredentialEviction', 'IdentifierActivityAnalysis', 'IdentifierAnalysis']"
+p1350,"['DNSDenylisting', 'NetworkIsolation']"
+p1351,"['AccessModeling', 'OperationalActivityMapping']"
+p1352,"['IdentifierActivityAnalysis', 'IdentifierAnalysis', 'MessageAnalysis', 'SenderReputationAnalysis']"
+p1353,['c:CTI_Input']
+p1354,['c:AdditionalTask']
+p1355,['c:IncidentHandlingManagement']
+p1356,['c:IncidentHandlingManagement']
+p1357,['c:IncidentHandlingManagement']
+p1358,"['AccountLocking', 'CredentialEviction']"
+p1359,['c:CTI_Input']
+p1360,['c:CTI_Input']
+p1361,['c:CTI_Input']
+p1362,['c:CTI_Input']
